@@ -2,7 +2,7 @@
 # General Site Settings
 
 menu:
-- {name: 'Snowboard Pride', url: 'snowboard-pride'}
+- {name: 'Snowboard Pride', url: 'projects/snowboard-pride'}
 #- {name: 'Blog',     url: 'blog'}
 - {name: 'A propos',    url: 'about'}
 #- {name: 'Contact',  url: 'contact'}
