@@ -2,7 +2,7 @@
 # General Site Settings
 
 menu:
-- {name: 'Projets', url: ''}
+- {name: 'Snowboard Pride', url: 'snowboard-pride'}
 #- {name: 'Blog',     url: 'blog'}
 - {name: 'A propos',    url: 'about'}
 #- {name: 'Contact',  url: 'contact'}
@@ -14,7 +14,7 @@ projects:
 - {name: 'Snowboard Pride',   url: 'snowboard-pride'}
 #- {name: 'Comment j''apprends à me tenir droit',   url: 'me-tenir-droit'}
 #- {name: 'Mon Cap Ferret', url: 'mon-cap-ferret'}
-- {name: 'Chronique', url: 'chronique'}
+#- {name: 'Chronique', url: 'chronique'}
 
 
 #-------------------------------
