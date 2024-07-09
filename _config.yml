@@ -7,6 +7,6 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		   "Antoine Doinau"
-description: "Powered by Jekyll and GitHub Pages"
-author:      "Antoine Doinau"
+title:		   "Antoine D."
+description: "Antoine D. photographie"
+author:      "Antoine D."
