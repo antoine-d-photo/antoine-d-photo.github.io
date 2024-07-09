@@ -1,0 +1,43 @@
+/*_snowboard-pride.sass*/
+.snowboard-pride-container
+  display: block
+  width: 100%
+  .title-block
+    .title
+      font-size: 18px
+      font-weight: bold
+      color: #a6a6a6
+      text-align: right
+    .custom-divider
+      width: 100%
+      height: 1px
+      background-color: #a6a6a6
+      margin: 20px 0
+  .text-block
+    flex: 1
+    width: 200px
+    min-width: 200px
+    margin-right: 20px
+    .main-text
+      font-size: 12px
+      text-align: justify
+  .gallery-block
+    width: 100%
+    text-align: right
+  .text-and-gallery-container
+    width: 100%
+    display: flex
+    flex-direction: row
+
+@media only screen and (max-width: 500px)
+  .snowboard-pride-container
+    .text-block
+      width: 100%
+    .text-and-gallery-container
+      flex-direction: column
+    .gallery-block
+      text-align: center
+
+
+
+

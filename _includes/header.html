@@ -1,0 +1,25 @@
+<header>
+  <div class="logo">
+    <div><a href="{{ site.github.url }}/">{{ site.title }}</a></div>
+    <div class="photographie-label">Photographie</div>
+  </div>
+  <div class="button_container" id="toggle">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+  </div>
+  <div class="overlay" id="overlay">
+    <div class="overlay-menu">
+      <ul>
+        {% for item in site.data.settings.menu %}
+        <li>
+          <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+        <li>
+          <a href="#">A propos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
