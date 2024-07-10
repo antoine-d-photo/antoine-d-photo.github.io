@@ -1,14 +1,27 @@
 <div class="chronique-container">
-  <div class="text-block">
-    <div class="title">{{ page.title }}</div>
-    <div class="custom-divider"></div>
-    <p class="main-text">
-      Ici la description de la série chronique avec un texte justifié.
-    </p>
-  </div>
-  <a href="{{ site.github.url }}/projects/{{ page-next }}">
-    <div style="float: left;">
-      {{ section2 }}
+  <div class="title-block">
+    <div class="title-bar">
+      <div>
+        <img src="{{ site.github.url }}/assets/img/nav/back-rewind-svgrepo-com.svg" width="20px">
+      </div>
+      <div class="title">{{ page.title }}</div>
+      <div>
+        <img src="{{ site.github.url }}/assets/img/nav/forward-svgrepo-com.svg" width="20px">
+      </div>
     </div>
-  </a>
+    <div class="custom-divider"></div>
+  </div>
+  
+  <div class="text-and-gallery-container">
+    <div class="text-block">
+      Ici la description de la série chronique avec un texte justifié.
+    </div>
+    <div class="gallery-block">
+      <div  id="gallery">
+        <img src="https://picsum.photos/200">
+        <img src="https://picsum.photos/200">
+      </div>
+    </div>
+  </div>
 </div>
+

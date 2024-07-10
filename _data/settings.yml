@@ -3,7 +3,7 @@
 
 menu:
 - {name: 'Snowboard Pride', url: 'projects/snowboard-pride'}
-#- {name: 'Blog',     url: 'blog'}
+- {name: 'Chronique',     url: 'projects/chronique'}
 - {name: 'A propos',    url: 'about'}
 #- {name: 'Contact',  url: 'contact'}
 
@@ -14,7 +14,7 @@ projects:
 - {name: 'Snowboard Pride',   url: 'snowboard-pride'}
 #- {name: 'Comment j''apprends à me tenir droit',   url: 'me-tenir-droit'}
 #- {name: 'Mon Cap Ferret', url: 'mon-cap-ferret'}
-#- {name: 'Chronique', url: 'chronique'}
+- {name: 'Chronique', url: 'chronique'}
 
 
 #-------------------------------
@@ -36,8 +36,8 @@ social:
 
 seo:
   description: 'Personal portfolio powered by Jekyll and GitHub Pages '
-  rel-author: 'https://plus.google.com/u/0/#'
-  rel-publisher: 'https://plus.google.com/u/0/#'
+  rel-author: ''
+  rel-publisher: ''
 
 #-------------------------------
 # Google Analytics Section
