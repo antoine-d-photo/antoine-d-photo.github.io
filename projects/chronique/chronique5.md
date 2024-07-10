@@ -17,4 +17,4 @@ chronique/chronique6
 
 
 
-{% include chronique.html %}
+{% include main.html %}
