@@ -16,12 +16,12 @@ Ici la description de la série chronique 2.
     width="350" alt=""/>
 {% endcapture %}
 
-{% capture page-next %}
-projects/chronique/chronique3
-{% endcapture %}
-
 {% capture page-prev %}
 projects/chronique
+{% endcapture %}
+
+{% capture page-next %}
+projects/chronique/chronique3
 {% endcapture %}
 
 {% include main.html %}
