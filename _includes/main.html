@@ -1,21 +1,21 @@
 <div class="main-container">
   <div class="title-block">
     <div class="title-bar">
+      {% if page-prev %}
       <div>
-        {% if page-prev %}
         <a href="{{ site.github.url }}/{{ page-prev }}">
           <img src="{{ site.github.url }}/assets/img/nav/back-rewind-svgrepo-com.svg" width="30px">
         </a>
-        {% endif %}
       </div>
+      {% endif %}
       <div class="title">{{ page.title }}</div>
+      {% if page-next %}
       <div style="padding-left: 30px;">
-        {% if page-next %}
         <a href="{{ site.github.url }}/{{ page-next }}">
           <img src="{{ site.github.url }}/assets/img/nav/forward-svgrepo-com.svg" width="30px">
         </a>
-        {% endif %}
       </div>
+      {% endif %}
     </div>
     <div class="custom-divider"></div>
   </div>
