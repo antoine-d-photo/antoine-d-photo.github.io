@@ -17,11 +17,11 @@ Ici la description de la série chronique 2.
 {% endcapture %}
 
 {% capture page-next %}
-chronique/chronique3
+projects/chronique/chronique3
 {% endcapture %}
 
-{% capture page-next %}
-chronique/chronique
+{% capture page-prev %}
+projects/chronique
 {% endcapture %}
 
 {% include main.html %}
