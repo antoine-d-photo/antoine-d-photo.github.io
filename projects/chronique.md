@@ -7,7 +7,6 @@ title: 'Chronique'
 Ici la description de la série chronique avec un texte justifié.
 {% endcapture %}
 
-
 {% capture gallery-block %}
 <img src="{{ site.github.url }}/assets/img/projects/chronique/P1013266.jpg"
     width="350" alt=""/>

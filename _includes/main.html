@@ -2,11 +2,15 @@
   <div class="title-block">
     <div class="title-bar">
       <div>
+        {% if page-prev %}
         <img src="{{ site.github.url }}/assets/img/nav/back-rewind-svgrepo-com.svg" width="30px">
+        {% endif %}
       </div>
       <div class="title">{{ page.title }}</div>
       <div style="padding-left: 30px;">
+        {% if page-next %}
         <img src="{{ site.github.url }}/assets/img/nav/forward-svgrepo-com.svg" width="30px">
+        {% endif %}
       </div>
     </div>
     <div class="custom-divider"></div>
