@@ -3,8 +3,11 @@ layout: default
 title: 'Chronique'
 ---
 
+{% capture text-block %}
+Ici la description de la série chronique 2.
+{% endcapture %}
 
-{% capture section2 %}
+{% capture gallery-block %}
 <img src="{{ site.github.url }}/assets/img/projects/chronique/P1014074.jpg"
     width="350" alt=""/>
 <img src="{{ site.github.url }}/assets/img/projects/chronique/P1013177.jpg"
@@ -17,6 +20,8 @@ title: 'Chronique'
 chronique/chronique3
 {% endcapture %}
 
-
+{% capture page-next %}
+chronique/chronique
+{% endcapture %}
 
 {% include main.html %}

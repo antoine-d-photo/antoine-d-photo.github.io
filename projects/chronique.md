@@ -15,7 +15,7 @@ Ici la description de la série chronique avec un texte justifié.
 {% endcapture %}
 
 {% capture page-next %}
-chronique/chronique2
+projects/chronique/chronique2
 {% endcapture %}
 
 {% include main.html %}

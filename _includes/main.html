@@ -3,14 +3,16 @@
     <div class="title-bar">
       <div>
         {% if page-prev %}
-        <img src="{{ site.github.url }}/assets/img/nav/back-rewind-svgrepo-com.svg" width="30px">
+        <a href="{{ site.github.url }}/{{ page-prev }}"></a>
+          <img src="{{ site.github.url }}/assets/img/nav/back-rewind-svgrepo-com.svg" width="30px">
+        </a>
         {% endif %}
       </div>
       <div class="title">{{ page.title }}</div>
       <div style="padding-left: 30px;">
         {% if page-next %}
-        <a href="{{ site.github.url }}/">
-          <img src="{{ site.github.url }}/{{ page-next }}" width="30px">
+        <a href="{{ site.github.url }}/{{ page-next }}">
+          <img src="{{ site.github.url }}/assets/img/nav/forward-svgrepo-com.svg" width="30px">
         </a>
         {% endif %}
       </div>
