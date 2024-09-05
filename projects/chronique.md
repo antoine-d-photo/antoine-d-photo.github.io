@@ -36,4 +36,4 @@ Je vois qu’un **apaisement** viendra, en rassemblant les morceaux, sans trop c
 projects/chronique/chronique2
 {% endcapture %}
 
-{% include main.html %}
+{% include main-text-and-gallery.html %}

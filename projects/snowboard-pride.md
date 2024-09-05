@@ -39,4 +39,4 @@ Entre 2007 et 2012, muni d'un appareil photo moyen format ancien, j'ai réalisé
       </div>
 {% endcapture %}
 
-{% include main.html %}
+{% include main-text-and-gallery.html %}

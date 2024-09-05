@@ -5,10 +5,15 @@ title: 'Chronique'
 
 
 {% capture gallery-block %}
-<img src="{{ site.github.url }}/assets/img/projects/chronique/P1013976.jpg"
-    width="350" alt=""/>
-<img src="{{ site.github.url }}/assets/img/projects/chronique/image (1).png"
-    width="350" alt=""/>
+<div>
+    <img src="{{ site.github.url }}/assets/img/projects/chronique/P1013976.jpg"
+        width="350" alt=""/>
+</div>
+<div style="width: 100%"></div>
+<div>
+    <img src="{{ site.github.url }}/assets/img/projects/chronique/image (1).png"
+        width="350" alt=""/>
+</div>
 {% endcapture %}
 
 {% capture page-prev %}
@@ -21,4 +26,4 @@ projects/chronique/chronique6
 
 
 
-{% include main.html %}
+{% include main-gallery-line.html %}
