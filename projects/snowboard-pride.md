@@ -4,7 +4,9 @@ title: 'Snowboard Pride'
 ---
 
 {% capture text-block %}
-Entre 2007 et 2012, muni d'un appareil photo moyen format ancien, j'ai réalisé ces protraits de snowboarders dans diverses stations de ski en France.
+Ces portraits ont été réalisés entre 2007 et 2012 dans diverses stations de ski en France.
+En reprenant les codes des photographies de rue et documentaires, à la manière de August Sander, cette série témoigne de la diversité des styles vestimentaires et de l'enthousiasme de la tribu des snowboarders. 
+L'utilisation d'un appareil argentique ancien (Agfa Isolette III) m'a permis d'établir un point entre les genres et les époques photographiques tout en donnant au moment de la prise de vue un caractère insolite.
 {% endcapture %}
 
 {% capture gallery-block %}
