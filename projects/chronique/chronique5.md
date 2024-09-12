@@ -11,7 +11,7 @@ title: 'Chronique'
 </div>
 <div style="width: 100%"></div>
 <div>
-    <img src="{{ site.github.url }}/assets/img/projects/chronique/image (1).png"
+    <img src="{{ site.github.url }}/assets/img/projects/chronique/P1013728.jpg"
         width="350" alt=""/>
 </div>
 {% endcapture %}
