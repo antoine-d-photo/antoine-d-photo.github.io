@@ -1,0 +1,34 @@
+<div class="main-container">
+  <div class="title-block">
+    <div class="title-bar">
+      {% if page-prev %}
+      <div>
+        <a href="{{ site.github.url }}/{{ page-prev }}">
+          <img src="{{ site.github.url }}/assets/img/nav/back-rewind-svgrepo-com.svg" width="30px">
+        </a>
+      </div>
+      {% endif %}
+      <div class="title">{{ page.title }}</div>
+      {% if page-next %}
+      <div style="padding-left: 30px;">
+        <a href="{{ site.github.url }}/{{ page-next }}">
+          <img src="{{ site.github.url }}/assets/img/nav/forward-svgrepo-com.svg" width="30px">
+        </a>
+      </div>
+      {% endif %}
+    </div>
+    <div class="custom-divider"></div>
+  </div>
+  
+  <div class="text-and-gallery-container">
+    <div class="text-block">
+      {{ text-block | markdownify }}
+    </div>
+    <div class="gallery-block">
+      <div  id="gallery">
+        {{ gallery-block }}
+      </div>
+    </div>
+  </div>
+</div>
+

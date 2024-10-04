@@ -4,17 +4,26 @@ title: 'Chronique'
 ---
 
 
-{% capture section2 %}
-<img src="{{ site.github.url }}/assets/img/projects/chronique/2023-11-26-0001.jpg"
-    width="350" alt=""/>
-<img src="{{ site.github.url }}/assets/img/projects/chronique/2023-11-26-0002.jpg"
-    width="350" alt=""/>
+{% capture gallery-block %}
+<div>
+    <img src="{{ site.github.url }}/assets/img/projects/chronique/2023-11-26-0001.jpg"
+        width="350" alt=""/>
+</div>
+<div style="width: 100%"></div>
+<div>
+    <img src="{{ site.github.url }}/assets/img/projects/chronique/2023-11-26-0002.jpg"
+        width="350" alt=""/>
+</div>
+{% endcapture %}
+
+{% capture page-prev %}
+projects/chronique/chronique2
 {% endcapture %}
 
 {% capture page-next %}
-chronique/chronique4
+projects/chronique/chronique4
 {% endcapture %}
 
 
 
-{% include chronique.html %}
+{% include main-gallery-line.html %}
