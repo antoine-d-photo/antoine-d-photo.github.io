@@ -6,4 +6,4 @@ permalink: /about
 
 # contact
 
-[e-mail : glaphot@gmx.fr](mailto:glaphot@gmx.fr)
+[e-mail : antoine.d.photographe@gmail.com](mailto:antoine.d.photographe@gmail.com)

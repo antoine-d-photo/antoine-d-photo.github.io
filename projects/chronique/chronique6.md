@@ -4,7 +4,7 @@ title: 'Chronique'
 ---
 
 {% capture text-block %}
-Le projet **Chronique** a été exposé bla bla bla
+Le projet **Chronique** a été exposé en juin 2022 à l'école de photographie Bloo à Lyon.
 {% endcapture %}
 
 {% capture gallery-block %}
