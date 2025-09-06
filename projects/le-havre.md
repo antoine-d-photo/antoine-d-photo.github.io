@@ -6,15 +6,15 @@ title: 'Le Havre'
 
 {% capture gallery-block %}
     <div style="padding-bottom:5px">
-        <img src="{{ site.github.url }}/assets/img/projects/chronique/P1014074.jpg"
+        <img src="{{ site.github.url }}/assets/img/projects/le-havre/IMG_20250809_213939.jpg"
             width="350" alt=""/>
     </div>
     <div style="padding-bottom:5px">
-        <img src="{{ site.github.url }}/assets/img/projects/chronique/P1013177.jpg"
+        <img src="{{ site.github.url }}/assets/img/projects/le-havre/Le Havre 1.jpg"
             width="350" alt=""/>
     </div>
-    <div>
-        <img src="{{ site.github.url }}/assets/img/projects/chronique/01013604.jpg"
+    <div style="padding-bottom:5px">
+        <img src="{{ site.github.url }}/assets/img/projects/le-havre/IMG_20250810_003121.jpg"
             width="350" alt=""/>
     </div>
 {% endcapture %}
